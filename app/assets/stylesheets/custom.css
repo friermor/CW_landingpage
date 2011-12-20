@@ -1,0 +1,152 @@
+#wrapper {
+	
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	position:absolute;
+	color: white;
+	background-image: linear-gradient(bottom, rgb(61,102,112) 29%, rgb(92,133,146) 65%, rgb(120,160,176) 83%);
+	background-image: -o-linear-gradient(bottom, rgb(61,102,112) 29%, rgb(92,133,146) 65%, rgb(120,160,176) 83%);
+	background-image: -moz-linear-gradient(bottom, rgb(61,102,112) 29%, rgb(92,133,146) 65%, rgb(120,160,176) 83%);
+	background-image: -webkit-linear-gradient(bottom, rgb(61,102,112) 29%, rgb(92,133,146) 65%, rgb(120,160,176) 83%);
+	background-image: -ms-linear-gradient(bottom, rgb(61,102,112) 29%, rgb(92,133,146) 65%, rgb(120,160,176) 83%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.29, rgb(61,102,112)),
+		color-stop(0.65, rgb(92,133,146)),
+		color-stop(0.83, rgb(120,160,176))
+	);
+}
+
+
+#wrapper a {
+	color: white;
+
+}
+
+a:hover {
+	font-weight: bolder;
+	text-decoration:underline;
+}
+
+
+#header {
+	padding-right: 10px;
+	text-align:right;
+}
+
+#Front_Page_Img {
+	float:left;
+	padding-bottom: 10px;
+}
+
+#ClasswaveH1 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-shadow:  3px 3px 3px #000;
+	text-align: center;
+	font-size: 100px;
+}
+
+#CenterShit {
+	text-align:center;
+}
+
+
+#FB_Signup {
+	float:right;
+	color:white;
+	text-shadow: 2px 2px 4px #000;
+	font: 30px sans-serif;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #000;
+	display: inline-block;
+	background: #3B5998;
+	padding: 10px 20px 10px 20px;
+
+}
+
+#SignInButton {
+	display: inline-block;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		font: 14px/100% Arial, Helvetica, sans-serif;
+		padding: 5px 10px;
+		text-shadow: 0 2px 2px rgba(0,0,0,.3);
+		border-radius: 2px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+	}
+	
+#Other_Login {
+	padding-top: 20px;
+}
+
+#static_pages {
+	padding-top: 20px;
+	font-size: 10px;
+}
+
+#BottomLinks {
+	text-align:center;
+}
+
+#footer {
+	height: 4em;
+	padding-bottom: 30px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 30px Arial, Helvetica, sans-serif;
+	padding: 10px 20px;
+	text-shadow: 0 2px 2px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+}
+
+
+
+/*--------------------------
+Below the Fold Stuff "BTF...."*/
+
+
+#BTF_FB_Signup {
+	float: right;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+	font: 30px sans-serif;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #000;
+	display: inline-block;
+	background: #3B5998;
+	padding: 10px 20px 10px 20px;
+}
+
+#HomeButton {
+	display: inline-block;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		font: 14px/100% Arial, Helvetica, sans-serif;
+		padding: 5px 10px;
+		text-shadow: 0 2px 2px rgba(0,0,0,.3);
+		-webkit-border-radius: .5em; 
+		-moz-border-radius: .5em;
+		border-radius: .5em;
+		-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	
+
+}
